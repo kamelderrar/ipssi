@@ -1,3 +1,82 @@
+
+       <!-- CONTACT-->
+           <div class="well well-sm">
+            <div class="row">
+                <div class="col-md-8">
+                    <p class="reussite">DONNEZ-VOUS LES MOYENS DE RÉUSSIR, CONTACTEZ-NOUS TÉL. : 01 55 43 26 65</p>
+                </div>
+                <div class="col-md-4">
+                    <a class="btn btn-lg btn-default btn-block" href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="col-md-4">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li><span class="menu_footer">FORMATIONS INFORMATIQUE</span></li>
+                        <li><a href=""class="formations_footer">MASTÈRE 2 - IT Manager - BAC +5 <br>
+                        <span class="liens_footer">ESI - Titre de niveau I inscrit au RNCP</span></a></li>
+                        <li><a href=""class="formations_footer">MASTÈRE 1 - Système et réseau - BAC +4 <br>
+                        <span class="liens_footer">ASI - Titre de niveau II inscrit au RNCP</span></a></li>
+                        <li><a href=""class="formations_footer">MASTÈRE 1 - Développement - BAC +4 <br>
+                        <span class="liens_footer">ASI - Titre de niveau II inscrit au RNCP</span></a></li>
+                        <li><a class="formations_footer">MASTÈRE 1 - Design Graphique - BAC +4 <br>
+                        <span class="liens_footer">ASI - Titre de niveau II inscrit au RNCP</span></a></li>
+                        <li><a href=""class="formations_footer">BACHELOR - BTS SIO SISR SLAM - BAC +2 <br>
+                        <span class="liens_footer">Brevet Technicien Supérieur Servives Informatiques</span></a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li><span class="menu_footer">L'ÉCOLE PARIS - LYON</span></li>
+
+
+                        <li><a href="" class="ecole_footer">Connaitre l'école ipssi</a></li>
+                        <li><a href="" class="ecole_footer">Témoignages</a></li>
+                        <li><a href="" class="ecole_footer">Parrainez vos amis</a></li>
+                        <li><span class="menu_footer">CONDITIONS ADMISSION</span></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        Critères de recrutement
+Testez vos connaissances
+S'inscrire
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li><span class="menu_footer">RECHERCHE D'ENTREPRISE</span></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <hr>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>© 1998-2016 groupe ip-formation | PARIS : 01 55 43 26 65 | LYON : 0811 692 888 | Tous droits réservés | <a href="">Contactez-nous</a> | <a href="">Informations légales</a></p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="assets/js/plugins.js"></script>

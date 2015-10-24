@@ -16,7 +16,7 @@
 | environments.
 |
 */
-$config['base_url'] = 'http://localhost/ipssi';
+$config['base_url'] = 'http://wwww.project.dev';
 
 /*
 |--------------------------------------------------------------------------
