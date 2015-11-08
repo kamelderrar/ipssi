@@ -10,10 +10,10 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="assets/css/normalize.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/modern-business.css">
-        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="/assets/css/normalize.css">
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="/assets/css/modern-business.css">
+        <link rel="stylesheet" href="/assets/css/main.css">
 
         <!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -30,7 +30,7 @@
 
         <div id="logoslogan">
         <div class="col-lg-7">
-            <div class="logo"><img src="assets/img/logo3.png"></div>
+            <div class="logo"><img src="/assets/img/logo3.png"></div>
             <div class="slogan"><p>L’Institut Privé Supérieur des Systèmes d’Information</p></div>
         </div>
         </div>
@@ -79,25 +79,25 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home"></span>Accueil</a>
+                <a class="navbar-brand" href="<?php echo base_url('home') ?>"><span class="glyphicon glyphicon-home"></span>Accueil</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-left">
                     <li>
-                        <a href="about.html">Le groupe</a>
+                        <a href="<?php echo base_url('pages/view/groupe') ?>">Le groupe</a>
                     </li>
                     <li>
-                        <a href="about.html">L'activité</a>
+                        <a href="<?php echo base_url('pages/view/activite') ?>">L'activité</a>
                     </li>
                     <li>
-                        <a href="about.html">Nous rejoindre</a>
+                        <a href="<?php echo base_url('pages/view/rejoindre') ?>">Nous rejoindre</a>
                     </li>
                     <li>
-                        <a href="about.html">Espace collaborateur</a>
+                        <a href="<?php echo base_url('pages/view/collaborateur') ?>">Espace collaborateur</a>
                     </li>
                     <li>
-                        <a href="about.html">contact</a>
+                        <a href="<?php echo base_url('pages/view/contact') ?>">contact</a>
                     </li>
                       
                 </ul>
@@ -109,4 +109,5 @@
         <!-- /.container -->
     </nav>
     </div>
+    <div class="container">
 

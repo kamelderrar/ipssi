@@ -1,17 +1,6 @@
 
-       <!-- CONTACT-->
-           <div class="well well-sm">
-            <div class="row">
-                <div class="col-md-8">
-                    <p class="reussite">DONNEZ-VOUS LES MOYENS DE RÉUSSIR, CONTACTEZ-NOUS TÉL. : 01 55 43 26 65</p>
-                </div>
-                <div class="col-md-4">
-                    <a class="btn btn-lg btn-default btn-block" href="#">Contact</a>
-                </div>
-            </div>
-        </div>
-        <hr>
-
+       
+      <hr>
         <!-- Footer -->
         <footer>
             <div class="container text-center">
@@ -45,8 +34,8 @@
                         <li></li>
                         <li></li>
                         Critères de recrutement
-Testez vos connaissances
-S'inscrire
+                        Testez vos connaissances
+                        S'inscrire
                     </ul>
                   </div>
                   <div class="col-md-4">
@@ -76,17 +65,62 @@ S'inscrire
     </div>
     <!-- /.container -->
 
+                    <script type="text/javascript">
+                        $( document ).ready(function() {
+                            $("#map-paris").gMap(
+                                {
+                                latitude:               48.848593,
+                                longitude:              2.388469,
+                                zoom:                   15,
+                                markers:                [{latitude: 48.848593, longitude: 2.388469, html: "ipssi, Paris"}],
+                                controls:               ["GSmallMapControl", "GMapTypeControl"],
+                                scrollwheel:            false,
+                                maptype:                G_NORMAL_MAP,
+
+                                    }
+                            );
+                            $("#map-lyon").gMap(
+                                {
+                                latitude:               45.77052,
+                                longitude:              4.863406,
+                                zoom:                   17,
+                                markers:                [{latitude: 45.77052, longitude: 4.863406, html: "ipssi, Lyon"}],
+                                controls:               ["GSmallMapControl", "GMapTypeControl"],
+                                scrollwheel:            false,
+                                maptype:                G_NORMAL_MAP,
+
+                                    }
+                            );
+
+
+                             $("#map-brest").gMap(
+                                {
+                                latitude:               48.398459,
+                                longitude:              -4.489892,
+                                zoom:                   17,
+                                markers:                [{latitude: 48.398459, longitude: -4.489892, html: "ipssi, Brest"}],
+                                controls:               ["GSmallMapControl", "GMapTypeControl"],
+                                scrollwheel:            false,
+                                maptype:                G_NORMAL_MAP,
+
+                                    }
+                            );
+
+
+                        });
+                    </script>
+
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
+        <script src="/assets/js/plugins.js"></script>
+        <script src="/assets/js/main.js"></script>
 
             <!-- jQuery -->
-        <script src="assets/js/jquery.js"></script>
+        <script src="/assets/js/jquery.js"></script>
 
         <!-- Bootstrap Core JavaScript -->
-        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script>
 
         <!-- Script to Activate the Carousel -->
         <script>
