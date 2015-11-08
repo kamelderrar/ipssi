@@ -16,7 +16,7 @@
 | environments.
 |
 */
-$config['base_url'] = 'http://wwww.project.dev';
+$config['base_url'] = 'http://www.project.dev';
 
 /*
 |--------------------------------------------------------------------------

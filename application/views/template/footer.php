@@ -65,51 +65,7 @@
     </div>
     <!-- /.container -->
 
-                    <script type="text/javascript">
-                        $( document ).ready(function() {
-                            $("#map-paris").gMap(
-                                {
-                                latitude:               48.848593,
-                                longitude:              2.388469,
-                                zoom:                   15,
-                                markers:                [{latitude: 48.848593, longitude: 2.388469, html: "ipssi, Paris"}],
-                                controls:               ["GSmallMapControl", "GMapTypeControl"],
-                                scrollwheel:            false,
-                                maptype:                G_NORMAL_MAP,
-
-                                    }
-                            );
-                            $("#map-lyon").gMap(
-                                {
-                                latitude:               45.77052,
-                                longitude:              4.863406,
-                                zoom:                   17,
-                                markers:                [{latitude: 45.77052, longitude: 4.863406, html: "ipssi, Lyon"}],
-                                controls:               ["GSmallMapControl", "GMapTypeControl"],
-                                scrollwheel:            false,
-                                maptype:                G_NORMAL_MAP,
-
-                                    }
-                            );
-
-
-                             $("#map-brest").gMap(
-                                {
-                                latitude:               48.398459,
-                                longitude:              -4.489892,
-                                zoom:                   17,
-                                markers:                [{latitude: 48.398459, longitude: -4.489892, html: "ipssi, Brest"}],
-                                controls:               ["GSmallMapControl", "GMapTypeControl"],
-                                scrollwheel:            false,
-                                maptype:                G_NORMAL_MAP,
-
-                                    }
-                            );
-
-
-                        });
-                    </script>
-
+                   
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>

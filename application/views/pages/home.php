@@ -1,4 +1,5 @@
-
+</div>
+<div class="row">
     <!-- Header Carousel -->
     <header id="myCarousel" class="carousel slide">
         <!-- Indicators -->
@@ -10,25 +11,25 @@
         </ol>
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image:url('/assets/img/slide1.jpg');"></div>
+                <div class="fill"><img src="/assets/img/slide1.jpg"></div>
                 <div class="carousel-caption">
                     <h2>Caption 1</h2>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('/assets/img/slide2.jpg');"></div>
+                <div class="fill"><img src="/assets/img/slide2.jpg"></div>
                 <div class="carousel-caption">
                     <h2>Caption 2</h2>
                 </div>
             </div>            
             <div class="item">
-                <div class="fill" style="background-image:url('/assets/img/slide3.jpg');"></div>
+                <div class="fill"><img src="/assets/img/slide3.jpg"></div>
                 <div class="carousel-caption">
                     <h2>Caption 3</h2>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('/assets/img/slide4.jpg');"></div>
+                <div class="fill"><img src="/assets/img/slide4.jpg"></div>
                 <div class="carousel-caption">
                     <h2>Caption 4</h2>
                 </div>
@@ -43,7 +44,7 @@
             <span class="icon-next"></span>
         </a>
     </header>
-
+</div>
     <!-- Page Content -->
     <div class="container">
 
@@ -126,7 +127,7 @@
                     <p class="reussite">DONNEZ-VOUS LES MOYENS DE RÉUSSIR, CONTACTEZ-NOUS TÉL. : 01 55 43 26 65</p>
                 </div>
                 <div class="col-md-4">
-                    <a class="btn btn-lg btn-default btn-block" href="#">Contact</a>
+                    <a class="btn btn-lg btn-default btn-block" href="<?php echo base_url('pages/view/contact') ?>">Contact</a>
                 </div>
             </div>
         </div>

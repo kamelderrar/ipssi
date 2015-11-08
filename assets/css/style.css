@@ -14,14 +14,12 @@ padding-top: 15px;
 }
 .slogan{
 position: relative;
-padding-top: 25px;
+padding-top: 35px;
 
 }
 #slogan img{
 	display: inline;
-	float: left;
 	vertical-align:middle;
-	margin-left: 5%;
 }
 .social li{
 	display: inline;
@@ -45,6 +43,7 @@ padding-top: 25px;
 .tnav .navbar a{ 
 	color: white;
 }
+
 .navbar-brand span{
 	margin-right: 10px;
 }
@@ -54,6 +53,24 @@ margin-left: 5%;
 }
 .navbar-inverse .navbar-nav li a{
 	color: white;
+}
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+}
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu a{
+	color:black!important;
 }	
 .glyphicon{
 	line-height: 0.5px !important;
@@ -63,7 +80,20 @@ p.reussite{
 	color: ;
 	background-color: ;
 }
+
 footer{
 	bottom: 0;
 	width: 100%;
+}
+.carousel-inner img{
+	width: 100%
+}
+.social {
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+.monipssi {
+    margin-right: 50px;
+    margin-top: 10px;
 }

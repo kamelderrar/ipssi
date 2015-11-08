@@ -5,26 +5,26 @@
   <form role="form" action="" method="post" >
     <div class="col-lg-6">
       <div class="form-group">
-        <label for="InputName">Nom</label>
+        <label for="lastname">Nom</label>
         <div class="input-group col-lg-12">
-          <input type="text" class="form-control " name="InputName" id="InputName" placeholder="Enter Name" required>
+          <input type="text" class="form-control " name="lastname" id="lastname" placeholder="Enter Name" required>
       </div>
       </div>
       <div class="form-group">
-        <label for="InputName">Prénom</label>
+        <label for="firstname">Prénom</label>
         <div class="input-group col-lg-12">
-          <input type="text" class="form-control " name="InputName" id="InputName" placeholder="Enter Name" required>
+          <input type="text" class="form-control " name="firstname" id="firstname" placeholder="Enter Name" required>
       </div>
       </div>      
       <div class="form-group">
-        <label for="InputEmail">Email</label>
+        <label for="email">Email</label>
         <div class="input-group col-lg-12">
-          <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
+          <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email" required  >
       </div>
       </div>
 	<div class="form-group">
-	  <label class="control-label" for="selectbasic">Objet de votre demande :</label>
-	    <select id="selectbasic" name="selectbasic" class="form-control col-lg-12">
+	  <label class="control-label" for="object">Objet de votre demande :</label>
+	    <select id="object" name="object" class="form-control col-lg-12">
 	      <option value="1">Choisissez</option>
 		  <option value="2">Je ne trouve pas l'information que je cherche</option>
 		  <option value="3">Je souhaiterais plus d'informations sur ...</option>
@@ -32,9 +32,9 @@
 	    </select>
 	</div>      
       <div class="form-group">
-        <label for="InputMessage">Message</label>
+        <label for="message">Message</label>
         <div class="input-group col-lg-12">
-          <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+          <textarea name="message" id="message" class="form-control" rows="5" required></textarea>
       </div>
       </div>
       <input type="submit" name="submit" id="submit" value="Envoyer" class="btn btn-info pull-right">
@@ -82,3 +82,47 @@
   </div>
 </div>
             
+ <script type="text/javascript">
+                        $( document ).ready(function() {
+                            $("#map-paris").gMap(
+                                {
+                                latitude:               48.848593,
+                                longitude:              2.388469,
+                                zoom:                   15,
+                                markers:                [{latitude: 48.848593, longitude: 2.388469, html: "ipssi, Paris"}],
+                                controls:               ["GSmallMapControl", "GMapTypeControl"],
+                                scrollwheel:            false,
+                                maptype:                G_NORMAL_MAP,
+
+                                    }
+                            );
+                            $("#map-lyon").gMap(
+                                {
+                                latitude:               45.77052,
+                                longitude:              4.863406,
+                                zoom:                   17,
+                                markers:                [{latitude: 45.77052, longitude: 4.863406, html: "ipssi, Lyon"}],
+                                controls:               ["GSmallMapControl", "GMapTypeControl"],
+                                scrollwheel:            false,
+                                maptype:                G_NORMAL_MAP,
+
+                                    }
+                            );
+
+
+                             $("#map-brest").gMap(
+                                {
+                                latitude:               48.398459,
+                                longitude:              -4.489892,
+                                zoom:                   17,
+                                markers:                [{latitude: 48.398459, longitude: -4.489892, html: "ipssi, Brest"}],
+                                controls:               ["GSmallMapControl", "GMapTypeControl"],
+                                scrollwheel:            false,
+                                maptype:                G_NORMAL_MAP,
+
+                                    }
+                            );
+
+
+                        });
+                    </script>
