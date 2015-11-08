@@ -13,13 +13,12 @@ class news extends CI_Controller {
     	$data['contents'] = 'page_contenu_view';	
 
     	// on charge la page dans le template
-		$this->load->view('template/template', $data, FALSE);
+		$this->load->view("template/header"); 
+		$this->load->view('pages/home');
+		$this->load->view("template/footer"); 
 
 	}
-	public function page()
-	{
-		$this->load->view('page/home');	
-	}
+
 
 }
 
