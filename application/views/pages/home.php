@@ -54,54 +54,56 @@
                 <h2 class="page-header">Téléchargez les différents programmes d'ipssi</h2>
 
             <div class="col-lg-1"></div>
-            <div class="col-lg-2">
-                <a href="/assets/img/pdf/formation/programme_bts_sio.pdf"class="text-center" target="_blank">
-                    <article class="white-panel"> <i class="fa fa-file-pdf-o fa-2x"></i><span class="pdf_logo">PDF</span>
+            <div class="col-lg-2 text-center">
+                    <article class="white-panel"> <i class="fa fa-file-pdf-o fa-2x text-danger"></i><span class="text-danger">PDF</span>
                         <h4 class="download_title">BTS<br> SIO<br> BAC+2</h4>
                         <hr>
-                        <i class="fa fa-download"></i>Télécharger
+                     <a href="/assets/img/pdf/formation/programme_bts_sio.pdf"class="text-center" target="_blank">
+                        <i class="fa fa-download"></i>Télécharger   
+                    </a>
                     </article>
                 </a>
             </div>
 
-            <div class="col-lg-2">
-                <a href="/assets/img/pdf/formation/programme_administrateur.pdf"class="text-center" target="_blank">
-                    <article class="white-panel"> <i class="fa fa-file-pdf-o fa-2x"></i><span class="pdf_logo">PDF</span>
+            <div class="col-lg-2 text-center">
+                    <article class="white-panel"> <i class="fa fa-file-pdf-o fa-2x text-danger"></i><span class="text-danger">PDF</span>
                         <h4 class="download_title">Mastère 1<br> Système & réseau<br> BAC+4</h4>
                         <hr>
-                        <i class="fa fa-download"></i>Télécharger
+                        <a href="/assets/img/pdf/formation/programme_administrateur.pdf" target="_blank">
+                            <i class="fa fa-download"></i>Télécharger
+                        </a>
                     </article>
-                </a>
             </div>
 
-            <div class="col-lg-2">
-                <a href="/assets/img/pdf/formation/programme_developpeur.pdf" class="text-center" target="_blank">
-                    <article class="white-panel "> <i class="fa fa-file-pdf-o fa-2x"></i><span class="pdf_logo">PDF</span>
+            <div class="col-lg-2 text-center">
+                    <article class="white-panel "> <i class="fa fa-file-pdf-o fa-2x text-danger"></i><span class="text-danger">PDF</span>
                         <h4 class="download_title">Mastère 1<br> Développement<br> BAC+4</h4>
                         <hr>
-                        <i class="fa fa-download"></i>Télécharger
+                        <a href="/assets/img/pdf/formation/programme_developpeur.pdf" class="text-center" target="_blank">
+                            <i class="fa fa-download"></i>Télécharger
+                        </a>
                     </article>
-                </a>
             </div>
 
-            <div class="col-lg-2">
-                <a href="/assets/img/pdf/formation/programme_design.pdf"class="text-center" target="_blank">
-                    <article class="white-panel"> <i class="fa fa-file-pdf-o fa-2x"></i><span class="pdf_logo">PDF</span>
+            <div class="col-lg-2 text-center">                
+                    <article class="white-panel"> <i class="fa fa-file-pdf-o fa-2x text-danger"></i><span class="text-danger">PDF</span>
                         <h4 class="download_title">Mastère 1<br> Design graphique<br> BAC+4</h4>
                         <hr>
-                        <i class="fa fa-download"></i>Télécharger
+                        <a href="/assets/img/pdf/formation/programme_design.pdf"class="text-center" target="_blank">
+                            <i class="fa fa-download"></i>Télécharger
+                        </a>
                     </article>
-                </a>
+                
             </div>
 
-            <div class="col-lg-2">
-                <a href="/assets/img/pdf/formation/programme_manager.pdf"class="text-center" target="_blank">
-                    <article class="white-panel"> <i class="fa fa-file-pdf-o fa-2x"></i><span class="pdf_logo">PDF</span>
+            <div class="col-lg-2 text-center">                
+                    <article class="white-panel"> <i class="fa fa-file-pdf-o fa-2x text-danger"></i><span class="text-danger">PDF</span>
                         <h4 class="download_title">Mastère 2<br> IT Manager<br> BAC+5</h4>
                         <hr>
-                        <i class="fa fa-download"></i>Télécharger
-                    </article>
-                </a>
+                        <a href="/assets/img/pdf/formation/programme_manager.pdf"class="text-center" target="_blank">
+                            <i class="fa fa-download"></i>Télécharger
+                        </a>
+                    </article>                
             </div>
 
             <div class="col-lg-1"></div>
@@ -133,7 +135,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+
         <!-- /.row -->
 
         <!-- GALERIE WEBDESIGN -->
