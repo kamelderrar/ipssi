@@ -29,30 +29,30 @@
     <div class="row">
 
         <div id="logoslogan">
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5 text-center">
             <div class="logo "><a href="<?php echo base_url('home') ?>"><img src="/assets/img/logo3.png"></a></div>
         </div>        
-        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 text-center">
+        <div class="col-lg-5 col-md-5 col-sm-7 col-xs-7 text-center">
             <div class="slogan"><p>L’Institut Privé Supérieur des Systèmes d’Information</p></div>
         </div>
         </div>
         <div class="colright">
-            <div class="col-lg-4  col-md-4 col-sm-12 col-xs-12 text-center">
-            <div class="col-lg-6">                
+            <div class="col-lg-4  col-md-4 col-sm-6 col-xs-6 text-center">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">                
                 <div class="social">                  
                        <a href="https://www.facebook.com/ipformation" class="fa fa-facebook fa-2x"></a>
                        <a href="https://twitter.com/ipformation" class="fa fa-twitter fa-2x"></a>
                        <a href="#" class="fa fa-linkedin fa-2x"></a>                    
                 </div> 
             </div>
-            <div class="col-lg-6">
+            <div class=" col-xs-4 col-sm-6 col-md-6 col-lg-6">
                 <div class="monipssi">
                         <a href="#" class="btn btn-primary btn-large"><i class="glyphicon glyphicon-user"></i> Mon IPSSI</a>
                 </div>  
             </div> <!-- end class 1st row -->              
             </div>    
         <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 text-center">
 
             <div class="recherche">
                 <form class="navbar-form " role="search">
@@ -84,7 +84,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?php echo base_url('home') ?>"><span class="glyphicon glyphicon-home"></span>Accueil</a>
+<!--                 <a class="navbar-brand" href="<?php echo base_url('home') ?>"><span class="glyphicon glyphicon-home"></span>Accueil</a> -->
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
 <div class="collapse navbar-collapse js-navbar-collapse">
@@ -96,16 +96,16 @@
                         <ul>
                             <li class="dropdown-header">Groupe ip-formation</li>
 
-                            <div id="menCollection" class="carousel slide" data-ride="carousel">
+                            <div id="menCollection" class="carousel slide" data-ride="carousel" data-interval="false">
                               <div class="carousel-inner">
                                 <div class="item active">
-                                    <a href="#"><img src="http://placehold.it/254x150/ff3546/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 1"></a>
+                                    <a href="#"><img src="/assets/img/panoramique/pano1.jpg" class="img-responsive" alt="product 1"></a>
                                 </div><!-- End Item -->
                                 <div class="item">
-                                    <a href="#"><img src="http://placehold.it/254x150/3498db/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 2"></a>
+                                    <a href="#"><img src="/assets/img/panoramique/pano2.jpg" class="img-responsive" alt="product 2"></a>
                                 </div><!-- End Item -->
                                 <div class="item">
-                                    <a href="#"><img src="http://placehold.it/254x150/2ecc71/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 3"></a>
+                                    <a href="#"><img src="/assets/img/panoramique/pano3.jpg" class="img-responsive" alt="product 3"></a>
                                 </div><!-- End Item -->                                
                               </div><!-- End Carousel Inner -->
                               <!-- Controls -->
@@ -147,35 +147,18 @@
                 <ul class="dropdown-menu mega-dropdown-menu">
                     <li class="col-sm-3">
                         <ul>
-                            <li><a href="<?php echo base_url('pages/metiers') ?>">Nos métiers</a></li>
-                            <li><a href="<?php echo base_url('pages/secteurs') ?>">Nos secteurs d'activités</a></li>
-                            <li><a href="<?php echo base_url('pages/confiance') ?>">Ils nous font confiance</a></li>
-                        </ul>
-                    </li>
-                    <li class="col-sm-3">
-                        <ul>
-                            <li></li>                      
-                        </ul>
-                    </li>
-                    <li class="col-sm-3">
-                        <ul>
-                            <li></li>                     
-                        </ul>
-                    </li>
-                    <li class="col-sm-3">
-                        <ul>
-                            <li class="dropdown-header">Women Collection</li>                            
-                            <div id="womenCollection" class="carousel slide" data-ride="carousel">
+                            <li class="dropdown-header">Groupe ip-formation</li>
+                            <div id="womenCollection" class="carousel slide" data-ride="carousel" data-interval="false">
                               <div class="carousel-inner">
                                 <div class="item active">
-                                    <a href="#"><img src="http://placehold.it/254x150/3498db/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 1"></a>
+                                    <a href="#"><img src="/assets/img/photos_jobdating/img-1.jpg" class="img-responsive" alt="product 1"></a>
                                 </div><!-- End Item -->
                                 <div class="item">
-                                    <a href="#"><img src="http://placehold.it/254x150/ff3546/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 2"></a>
+                                    <a href="#"><img src="/assets/img/photos_jobdating/img-8.jpg" class="img-responsive" alt="product 2"></a>
                                 </div><!-- End Item -->
                                 <div class="item">
-                                    <a href="#"><img src="http://placehold.it/254x150/2ecc71/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 3"></a>
-                                </div><!-- End Item -->                                
+                                    <a href="#"><img src="/assets/img/photos_jobdating/img-3.jpg" class="img-responsive" alt="product 3"></a>
+                                </div><!-- End Item -->                                                         
                               </div><!-- End Carousel Inner -->
                               <!-- Controls -->
                               <a class="left carousel-control" href="#womenCollection" role="button" data-slide="prev">
@@ -186,9 +169,25 @@
                                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                               </a>
-                            </div><!-- /.carousel -->
-                            <li class="divider"></li>
-                            <li><a href="#">View all Collection <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+                            </div><!-- /.carousel -->                        
+                            </ul>
+                    </li>
+                    <li class="col-sm-3">
+                        <ul>
+                            <li class="dropdown-header">L'activité</li>
+                            <li><a href="<?php echo base_url('pages/metiers') ?>">Nos métiers</a></li>
+                            <li><a href="<?php echo base_url('pages/secteurs') ?>">Nos secteurs d'activités</a></li>
+                            <li><a href="<?php echo base_url('pages/confiance') ?>">Ils nous font confiance</a></li>
+                        </ul>
+                    </li>
+                    <li class="col-sm-3">
+                        <ul>
+                            <li></li>                     
+                        </ul>
+                    </li>
+                    <li class="col-sm-3">
+                        <ul>
+                            <li></li>
                         </ul>
                     </li>
                 </ul>               
@@ -198,34 +197,18 @@
                 <ul class="dropdown-menu mega-dropdown-menu">
                     <li class="col-sm-3">
                         <ul>
-                            <li><a href="<?php echo base_url('pages/postes') ?>">Les postes à pourvoir</a></li>
-                            <li><a href="<?php echo base_url('pages/postuler') ?>">Postuler</a></li>
-                        </ul>
-                    </li>
-                    <li class="col-sm-3">
-                        <ul>
-                            <li></li>                      
-                        </ul>
-                    </li>
-                    <li class="col-sm-3">
-                        <ul>
-                            <li></li>                     
-                        </ul>
-                    </li>
-                    <li class="col-sm-3">
-                        <ul>
-                            <li class="dropdown-header">Women Collection</li>                            
-                            <div id="womenCollection" class="carousel slide" data-ride="carousel">
+                            <li class="dropdown-header">Groupe ip-formation</li>
+                            <div id="womenCollection" class="carousel slide" data-ride="carousel" data-interval="false">
                               <div class="carousel-inner">
                                 <div class="item active">
-                                    <a href="#"><img src="http://placehold.it/254x150/3498db/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 1"></a>
+                                    <a href="#"><img src="/assets/img/photos_jobdating/img-1.jpg" class="img-responsive" alt="product 1"></a>
                                 </div><!-- End Item -->
                                 <div class="item">
-                                    <a href="#"><img src="http://placehold.it/254x150/ff3546/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 2"></a>
+                                    <a href="#"><img src="/assets/img/photos_jobdating/img-8.jpg" class="img-responsive" alt="product 2"></a>
                                 </div><!-- End Item -->
                                 <div class="item">
-                                    <a href="#"><img src="http://placehold.it/254x150/2ecc71/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 3"></a>
-                                </div><!-- End Item -->                                
+                                    <a href="#"><img src="/assets/img/photos_jobdating/img-3.jpg" class="img-responsive" alt="product 3"></a>
+                                </div><!-- End Item -->                                                         
                               </div><!-- End Carousel Inner -->
                               <!-- Controls -->
                               <a class="left carousel-control" href="#womenCollection" role="button" data-slide="prev">
@@ -236,15 +219,28 @@
                                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                               </a>
-                            </div><!-- /.carousel -->
-                            <li class="divider"></li>
-                            <li><a href="#">View all Collection <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+                            </div><!-- /.carousel -->                        
+                            </ul>
+                    </li>
+                    <li class="col-sm-3">
+                    <ul>
+                            <li class="dropdown-header">Nous rejoindre</li>
+                            <li><a href="<?php echo base_url('pages/postes') ?>">Les postes à pourvoir</a></li>
+                            <li><a href="<?php echo base_url('pages/postuler') ?>">Postuler</a></li>
                         </ul>
+                    </li>
+                    <li class="col-sm-3">
+                        <ul>
+                            <li></li>                     
+                        </ul>
+                    </li>
+                    <li class="col-sm-3">
+                        
                     </li>
                 </ul>               
             </li>
             <li><a href="#">Espace collaborateur</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="/contact">Contact</a></li>
         </ul>
     </div><!-- /.nav-collapse -->
             <!-- /.navbar-collapse -->
@@ -255,6 +251,6 @@
     </nav>
     </div>
    
-</div> -->
+</div> 
 
     <div class="container">

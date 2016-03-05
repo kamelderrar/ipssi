@@ -105,10 +105,3 @@
     </address>
   </div>
 </div></div>
-<?
-		// leaving the credit is nice :)
-		// or... better yet... hire me for PHP (esp. CodeIgniter related) work!
-		// I am UK/EU Based but work remotely.
-		// Also message me if you just need a hand implementing this.
-    //github.com/abkr
-?>

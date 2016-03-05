@@ -71,6 +71,7 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="/assets/js/plugins.js"></script>
         <script src="/assets/js/main.js"></script>
+        <script src="/assets/js/ipssi.js"></script>
 
             <!-- jQuery -->
         <script src="/assets/js/jquery.js"></script>

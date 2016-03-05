@@ -203,18 +203,20 @@ body {
   line-height: 30px;
 }
 
-.carousel-control {
+.dropdown-menu > a.carousel-control {
   width: 30px;
   height: 30px;
   top: -35px;
+  background-color: #fff;
+  color: #fff;
 
 }
-.left.carousel-control {
+.dropdown-menu > .left.carousel-control {
   right: 30px;
   left: inherit;
 }
-.carousel-control .glyphicon-chevron-left, 
-.carousel-control .glyphicon-chevron-right {
+.dropdown-menu > .carousel-control .glyphicon-chevron-left, 
+.dropdown-menu > .carousel-control .glyphicon-chevron-right {
   font-size: 12px;
   height: 0px !important;
   background-color: #fff;
@@ -225,5 +227,25 @@ body {
   margin: 0px -15px !important;
 }
 
+.dropdown-menu img{
+  max-height: 175px;
+  width: inherit;
+  margin-left: auto;
+    margin-right: auto;
+}
+/****************** FIN MEGAMENU *********************/
 
-/****************** MEGAMENU *********************/
+article.white-panel{
+  border-radius: 5%;
+  background-color: #eee ; 
+}
+
+article.white-panel:hover{
+  background-color: #fff;
+}
+article.white-panel h4{
+  color: black;
+}
+.zone_download a {
+  color: #c60000;
+}
